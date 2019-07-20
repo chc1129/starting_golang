@@ -27,4 +27,17 @@ s = "\uD800\n"
 	fmt.Printf("%v\n", s)
 */
 
+	s = `
+	Goの
+	RAW文字列リテラルによる
+	複数行に渡る
+	文字列
+	`
+	fmt.Printf("%v\n", s)
+
+	s = `abc`
+	fmt.Printf("%s\n", s)
+	s = `\n
+	\n`
+	fmt.Printf("%v\n", s)
 }
