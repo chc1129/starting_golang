@@ -15,7 +15,7 @@ func main() {
     }
   }()
   /* ch2から受信した整数を1減算してch3へ送信 */
-  go runc() {
+  go func() {
     for {
       i := <-ch2
       ch3 <-(i - 1)
