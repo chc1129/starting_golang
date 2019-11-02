@@ -5,7 +5,8 @@ import (
 )
 
 func TestIsOne(t *testing.T) {
-	n := 1
+//	n := 0  // <-誤ったテストコード
+  n := 1
 	b := IsOne(n)
 	if b != true {
 		t.Errorf("%d is not one", n)
