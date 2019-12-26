@@ -14,6 +14,6 @@ Chapter 5：構造体とインターフェース
 Chapter 6：Goのツール  
 Chapter 7：Goのパッケージ  
 
-![stargin_golang](https://github.com/chc1129/image/blob/master/starting_golang/stargin_golang.png)
+![stargin_golang](https://github.com/chc1129/image/blob/master/starting_golang/starting_golang.png)
 
 
